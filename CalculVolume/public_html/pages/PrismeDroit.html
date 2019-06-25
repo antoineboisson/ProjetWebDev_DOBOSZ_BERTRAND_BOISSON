@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- 
+     Page web créé le 24/06/2019
+     Auteurs : Inès DOBOSZ & Valentin BERTRAND & Antoine BOISSON
+     Email : ines.dobosz@hotmail.fr
+-->
+
+<html lang="fr-FR">
+    <head>
+        <title>Volume d'un prisme droit</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="DOBOSZ BERTRAND BOISSON">
+        <meta name="description" content="Calculez les volumes de tous vos solides !">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../cssPages.css" rel="stylesheet" type="text/css">
+        <script src="../javascript/CalculsPrismePyramideOctaedre.js"></script>
+        <link rel="icon" href="../images/icone.png">
+    </head>
+    <body>
+        <header>
+                
+        </header>
+        <section id="formulaire">
+            <h1>Calculez le volume de votre prisme droit !</h1>
+            <form id="form_simulateur" name="form_simulateur">
+                <fieldset id="resultats">
+                    <legend>Vos données :</legend>
+                    <p><label for="base_Prisme_Pyramide_Octa">Base du prisme droit :</label> <input type="number" name="base_Prisme_Pyramide_Octa" id="base_Prisme_Pyramide_Octa" min="0" value="0"></p>
+                    <p><label for="hauteur_Prisme_Pyramide_Octa">Hauteur du prisme droit :</label> <input type="number" name="hauteur_Prisme_Pyramide_Octa" id="hauteur_Prisme_Pyramide_Octa" min="0" value="0"></p>
+
+                    <h2 id="resultatPrisme"></h2>
+                </fieldset>
+                <p id="controles"><input type="reset" name="rst_annuler" id="btn_annuler" value="Effacer les données"></p>
+            </form>
+            
+            <figure>                    <!-- Bouton retour -->
+                <a href = "../index.html"><img id="fleche" src="../images/fleche.svg" alt = "Retour a l'accueil" class ="forme" /></a>
+            </figure>
+            
+        </section>
+        <footer>
+            <p>&copy;2019 Kréole - Créé par <a href="mailto:ines.dobosz@hotmail.fr">Valentin BERTRAND, Antoine BOISSON, Ines DOBOSZ</a><p>
+            <img src ="../images/Isen.png" alt ="Logo Isen" title ="Logo Isen" width = "280" height="70">
+        </footer>
+    </body>
+</html>
